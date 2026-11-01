@@ -33,8 +33,7 @@ const cubemet = new THREE.MeshStandardMaterial({
     roughness: 0.2,
     metalness: 0.0,
     bumpMap: map,
-    bumpScale: 8.0,
-    color: 0x0ffa2e
+    bumpScale: 8.0
 });
 const cube = new THREE.Mesh(cubegem,cubemet);
 scene.add(cube);
